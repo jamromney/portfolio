@@ -4,131 +4,15 @@
 
 ### Calculator (2025)
 
-📝 Project Report
+The Graphical Calculator is an interactive desktop application built in Processing, a Java-based programming environment for visual design and computation. The goal of the project was to create a clean, functional calculator interface that handles both basic arithmetic and a selection of scientific operations, all controlled through clickable, on-screen buttons. The calculator was developed entirely from scratch, including its button system, display logic, and event handling, in a single Processing file named Calculator.pde.
 
-Project Title: Graphical Calculator in Processing
-Author: Jake Romney
-Date: September 25
-Language/Platform: Processing (Java-based)
-File Name: Calculator.pde
+The user interface is rendered on a 240×450 pixel canvas with a soft light-blue background (#C2DEFA) and a white display area at the top that shows the current input or result. The display text automatically scales to fit larger numbers, ensuring readability. Each button—whether numeric, operator, or scientific—is represented by a custom Button class that manages its position, label, color, and hover interaction. This design gives the calculator a dynamic, responsive feel, with subtle hover effects that provide immediate feedback to the user.
 
-🎯 Project Objective
+Behind the scenes, the calculator’s logic is built around a few core variables and a simple state-management system. Two floating-point operands (l and r) represent the left and right sides of a calculation, while result stores the outcome. The program keeps track of the active operator in a char variable op, and a boolean flag left determines whether the user is currently entering the first or second operand. Input is handled through mouse events—when a number button is pressed, it updates the active operand; when an operator is pressed, it stores the operation and shifts input focus. Pressing the equals button performs the calculation and updates the display in real time. Scientific and special functions—such as square, square root, logarithm, π, and sign toggle—operate directly on the current operand, while the clear button (C) resets the calculator to its default state.
 
-The objective of this project is to design and implement a fully functional graphical calculator using the Processing programming environment. The calculator supports both basic arithmetic and scientific operations and allows user interaction through clickable buttons within a visual interface.
+From a technical standpoint, the project showcases several key programming skills: object-oriented design, event-driven input handling, and real-time UI rendering. Arrays are used to efficiently store and manage groups of buttons, simplifying layout generation and input detection. Conditional logic governs operand and operator flow, ensuring the calculator behaves predictably even as users mix numeric and scientific operations. This structure demonstrates a clear understanding of both logical computation and graphical interface design in Processing.
 
-📱 Features and Functionality
-✔️ Basic Operations
-
-Addition (+)
-
-Subtraction (-)
-
-Multiplication (×)
-
-Division (÷)
-
-Equals (=)
-
-✔️ Scientific and Special Functions
-
-Square (S)
-
-Square Root (√)
-
-Natural Logarithm (L)
-
-Pi (π)
-
-Sign Toggle (±)
-
-Decimal Point (.)
-
-Clear (C)
-
-🧠 Program Structure
-🧩 Key Components
-
-Button Arrays:
-
-buttons[] — an array of 12 function/operator buttons
-
-numButtons[] — an array of 10 numeric buttons (0–9)
-
-Core Variables:
-
-float l, r — stores the left and right operands
-
-float result — stores the calculation result
-
-String dVal — string representation of the current display value
-
-char op — stores the selected operator
-
-boolean left — indicates which operand (left or right) is being input
-
-🧮 Calculator Logic
-
-When a number button is pressed, it updates either l or r depending on the left flag.
-
-When an operator is pressed (+, -, ×, ÷), the program stores the operator and switches input to the right operand.
-
-Pressing = triggers the calculation using the current operands and operator, storing the result in result and displaying it.
-
-Scientific functions like square, square root, and logarithm apply directly to the current operand.
-
-Special buttons such as π insert the value of pi, and ± toggles the sign of the current operand.
-
-The C button resets all input and values.
-
-🎨 User Interface
-
-Canvas Size: 240 × 450 pixels
-
-Design:
-
-Calculator background color: light blue (#C2DEFA)
-
-Buttons are styled with different colors based on their purpose (numeric, function, operator)
-
-Hover effects are applied to buttons for better user interaction
-
-Display Area:
-
-A white rectangle at the top of the canvas shows the current number or result.
-
-The font size adjusts dynamically to fit larger numbers within the display area.
-
-🧪 Technical Skills Demonstrated
-
-Event handling using mousePressed() and hover detection
-
-Use of arrays and object-oriented programming (Button class)
-
-Conditional logic and operand management
-
-Drawing and layout using Processing graphics functions
-
-Implementing both arithmetic and scientific operations
-
-Dynamic user interface updates and feedback
-
-📌 Potential Improvements
-
-Add keyboard input support
-
-Improve input handling (e.g., prevent multiple operators in a row)
-
-Implement expression history or memory storage
-
-Handle edge cases like divide-by-zero more gracefully
-
-Add parentheses for multi-step operations
-
-Support continuous operations without needing to reset
-
-✅ Conclusion
-
-This project successfully demonstrates a functional, interactive calculator interface built from scratch using Processing. It reinforces core programming concepts such as object-oriented design, event-driven input, graphical layout, and real-time user feedback, while also providing an introduction to building custom GUI applications.
+Looking ahead, there are several directions for enhancement, including adding keyboard input, expression history, parentheses for complex operations, and more robust error handling for edge cases like divide-by-zero. Despite its simplicity, the project highlights how core programming concepts—variables, control flow, classes, and rendering—can come together to create a polished, interactive tool. It’s a solid demonstration of turning procedural logic into a cohesive visual experience within Processing.
 
 ![RunningCalculator](https://github.com/jamromney/portfolio/blob/main/images/Calc.png?raw=true)
 
