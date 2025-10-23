@@ -18,4 +18,4 @@ Looking ahead, there are several directions for enhancement, including adding ke
 
 * [Windows](https://github.com/jamromney/portfolio/blob/main/src/Calc/windows-amd64.zip)
 * [MacOS](https://github.com/jamromney/portfolio/blob/main/src/Calc/macos-aarch64.zip)
-* [SourceCode](https://github.com/jamromney/portfolio/blob/main/src/Calc/Calculator.zip)
+* [SourceCode](https://github.com/jamromney/portfolio/tree/main/src/Calc/Source%20Code)
