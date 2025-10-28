@@ -59,6 +59,35 @@ void draw() {
   updateDisplay();
 }
 
+void keyPressed() {
+  println("key:" + key);
+  println("keyCode:" + keyCode);
+  if (keyCode == 107) {
+    dVal = "0";
+    left = false;
+    op = '+';
+  } else if (keyCode == 10) {
+    performCalculation();
+    l = result;
+  } else if (keyCode == 111) {
+    dVal = "0";
+    left = false;
+    op = '/';
+  } else if (keyCode == 106) {
+    dVal = "0";
+    left = false;
+    op = '*';
+  } else if (keyCode == 109) {
+    dVal = "0";
+    left = false;
+    op = '-';
+  } else if (keyCode == 110) {
+    if (dVal.contains(".") == false) {
+      dVal += ".";
+    }
+  } // else if (keyCode) {}
+}
+
 void mousePressed() {
   // All Number Buttons
   for (int i = 0; i<numButtons.length; i++) {
@@ -170,11 +199,12 @@ void updateDisplay() {
   rect(121, 45, 225, 65, 4);
   fill(0);
   textSize(45);
+  int size = 45;
   textAlign(RIGHT);
   if (dVal.length()>9) {
-    textSize(35);
+    textSize(size - 10);
   } else if (dVal.length() >11) {
-    textSize(25);
+    textSize(size - 10);
   }
   text(dVal, width-20, 60);
 }
