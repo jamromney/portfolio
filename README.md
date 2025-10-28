@@ -15,7 +15,7 @@ From a technical standpoint, the project showcases several key programming skill
 Looking ahead, there are several directions for enhancement, including adding keyboard input, expression history, parentheses for complex operations, and more robust error handling for edge cases like divide-by-zero. Despite its simplicity, the project highlights how core programming concepts—variables, control flow, classes, and rendering—can come together to create a polished, interactive tool. It’s a solid demonstration of turning procedural logic into a cohesive visual experience within Processing.
 
 ![RunningCalculator](https://github.com/jamromney/portfolio/blob/main/images/Calc.png?raw=true)
-![CalcUML](https://github.com/jamromney/portfolio/blob/main/images/CalcUML.png)
+![CalcUML](https://github.com/jamromney/portfolio/blob/main/images/CalcUML.jpg)
 
 * [Windows](https://github.com/jamromney/portfolio/blob/main/src/Calc/windows-amd64.zip)
 * [MacOS](https://github.com/jamromney/portfolio/blob/main/src/Calc/macos-aarch64.zip)
