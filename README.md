@@ -31,11 +31,8 @@ The game features a multi-screen system (Start, Play, Menu, End, and Game Over) 
 Core gameplay mechanics include:
 
 *[Timed events that generate waste, requiring player attention and cleanup]
-
 *[Drag-and-drop interaction for waste disposal using a trash can]
-
 *[Interactive objects such as a bath, bed, toy, and food, each affecting the pet’s internal meters]
-
 *[Animated feedback systems (bubbles, “Zzz” effects) to visually communicate pet states]
 
 *[Dynamic meter system where mood, hunger, and cleanliness influence each other over time]
