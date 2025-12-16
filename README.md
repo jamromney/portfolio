@@ -37,3 +37,8 @@ Core gameplay mechanics include:
 * Dynamic meter system where mood, hunger, and cleanliness influence each other over time
 
 The project emphasizes object-oriented programming, with modular classes for game objects (Pet, Waste, Food, Bed, Bath, Meters, Buttons), making the system scalable and easy to extend. A timer-based update loop and collision/hover detection systems reinforce real-time interactivity and player engagement.
+
+![StartScreen] (https://github.com/jamromney/portfolio/blob/main/images/digipetsStart.png)
+![PlayScreen] (https://github.com/jamromney/portfolio/blob/main/images/digipetsplay.png)
+
+* [Project Repo] (https://github.com/jamromney/Group-1)
