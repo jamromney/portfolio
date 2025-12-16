@@ -21,3 +21,23 @@ Looking ahead, there are several directions for enhancement, including adding ke
 * [Windows](https://github.com/jamromney/portfolio/blob/main/src/Calc/windows-amd64.zip)
 * [MacOS](https://github.com/jamromney/portfolio/blob/main/src/Calc/macos-aarch64.zip)
 * [SourceCode](https://github.com/jamromney/portfolio/tree/main/src/Calc/Source%20Code)
+
+### DigiPets
+
+Digipets is an interactive virtual pet game built in Processing (Java) that explores real-time simulation, user interaction, and state-based game design. Players care for a digital pet by managing its mood, cleanliness, and hunger through playful interactions and environmental objects.
+
+The game features a multi-screen system (Start, Play, Menu, End, and Game Over) controlled through a centralized state manager, allowing smooth transitions and clear gameplay flow. During play, the pet responds dynamically to mouse input, moving around the environment and reacting to player actions.
+
+Core gameplay mechanics include:
+
+Timed events that generate waste, requiring player attention and cleanup
+
+Drag-and-drop interaction for waste disposal using a trash can
+
+Interactive objects such as a bath, bed, toy, and food, each affecting the pet’s internal meters
+
+Animated feedback systems (bubbles, “Zzz” effects) to visually communicate pet states
+
+Dynamic meter system where mood, hunger, and cleanliness influence each other over time
+
+The project emphasizes object-oriented programming, with modular classes for game objects (Pet, Waste, Food, Bed, Bath, Meters, Buttons), making the system scalable and easy to extend. A timer-based update loop and collision/hover detection systems reinforce real-time interactivity and player engagement.
