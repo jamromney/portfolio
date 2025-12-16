@@ -42,3 +42,7 @@ The project emphasizes object-oriented programming, with modular classes for gam
 ![PlayScreen](https://github.com/jamromney/portfolio/blob/main/images/digipetsplay.png)
 
 * [Project Repo](https://github.com/jamromney/Group-1)
+
+## Certifications
+### YouScience Computer Programming 1
+![cert](https://github.com/jamromney/portfolio/blob/main/images/youScienceCert.png)
