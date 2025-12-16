@@ -1,4 +1,4 @@
-# Jake Romney's Programming Portfolio | 2026
+# Jake Romney's Programming Portfolio | 2026 | Email: 9621363@graniteschools.org
 
 ## Term 1 Projects
 
@@ -37,6 +37,8 @@ Core gameplay mechanics include:
 * Dynamic meter system where mood, hunger, and cleanliness influence each other over time
 
 The project emphasizes object-oriented programming, with modular classes for game objects (Pet, Waste, Food, Bed, Bath, Meters, Buttons), making the system scalable and easy to extend. A timer-based update loop and collision/hover detection systems reinforce real-time interactivity and player engagement.
+
+Personal contrubtion includes development of Waste, Food, and Meter classes, screen switching logic, all class implementations, and acting as the group leader
 
 ![StartScreen](https://github.com/jamromney/portfolio/blob/main/images/digipetsStart.png)
 ![PlayScreen](https://github.com/jamromney/portfolio/blob/main/images/digipetsplay.png)
